@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "run dev",
+    "cypress":"npx cypress open",
     "lint": "next lint"
   },
   "dependencies": {
